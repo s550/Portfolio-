@@ -3,9 +3,6 @@
 font-family: 'Yanone Kaffeesatz', sans-serif;
 font-family: 'Rajdhani', sans-serif;*/
 
-
-
-
 html{
 	color: #2d3c49;
 }
@@ -37,6 +34,11 @@ a img:hover{
 
 }
 
+#custom-i{
+	font-size: 100px;
+
+}
+
 .right h1{
 	font-size:42px;
 }
@@ -49,6 +51,8 @@ a img:hover{
 	vertical-align: bottom;
 }
 
+
+
 .text{
 	text-transform: uppercase;
 	font-family: 'Rajdhani', sans-serif;
@@ -56,7 +60,7 @@ a img:hover{
 }
 
 .title{
-	text-align: right;
+	text-align: center;
 }
 
 hr{
@@ -64,11 +68,12 @@ hr{
 	margin-bottom: 80px;
 }
 
-.container-top{
+/*contains the header content*/
+.container{
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content:space-around;
-	/*align-items: center;*/
+	align-items: center;
 }
 
 .grey{
@@ -78,7 +83,7 @@ hr{
 	font-weight: 500;
 	font-size: 30px;
 }
-
+/*contains all the links and images for my other work*/
 .container-bottom{
 	display: flex;
 	flex-direction: row;
@@ -95,12 +100,14 @@ hr{
 	border: solid 2px black;
 	flex: 1;
 }
+/*contains the placeholder img in the middle of the page.*/
+.container-mid{
+margin: 0 50px;
+display: flex;
 
-.img{
-margin: 0 100px;
 }
 
-.img img{
+.container-mid img{
 	width: 100%;
 	height: 400px;
 	padding: 0;
@@ -118,4 +125,19 @@ margin: 0 100px;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	font-weight: 300;
 	text-align: center;
+}
+
+/*adjusts the text alignment when going to mobile size to maintain a similar look to the regular size page.*/
+@media only screen and (max-width: 420px){
+.right {
+		text-align: right;
+	
+	}
+
+.title {
+		text-align: right;
+}
+.img img{
+	max-width: 100%;
+}
 }
