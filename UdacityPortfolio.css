@@ -33,7 +33,7 @@ a img:hover{
 	color: #02b3e4;
 
 }
-
+/* Had to make an id to target font size directly */
 #custom-i{
 	font-size: 100px;
 
