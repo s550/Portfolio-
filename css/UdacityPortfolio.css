@@ -1,0 +1,94 @@
+/*Imported font families*/
+/*font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Rajdhani', sans-serif;*/
+
+
+
+
+html{
+	color: #2d3c49;
+}
+
+
+.header{
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+	justify-content: flex-end;
+}
+
+.left{
+	margin-right: auto;
+	font-size: 100px;
+	color: #02b3e4;
+
+}
+
+.right h1{
+	font-size:42px;
+}
+
+.right h3{
+	font-size: 25px;
+}
+
+.fa{
+	vertical-align: bottom;
+}
+
+.text{
+	text-transform: uppercase;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+}
+
+.title{
+	text-align: right;
+}
+
+hr{
+	border:2px solid #7d97ad;
+	margin-bottom: 80px;
+}
+
+.container-top{
+	display: flex;
+	flex-direction: column;
+	justify-content:space-around;
+	/*align-items: center;*/
+}
+
+.grey{
+	color: #7d97ad;
+	margin: 0 40px 0 10px;
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+}
+
+.container-bottom{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-flow: row wrap;
+}
+
+.equal{
+	display: inline-block;
+	margin: 10px 0 0 2%;
+	justify-content: center;
+	max-width: 260px;
+	height: 200px;
+	border: solid 2px black;
+	flex: 1;
+}
+
+.contianer-mid{
+margin: 50px auto;
+}
+
+.container-mid img{
+	max-width: 100%;
+	height: 570px;
+}
